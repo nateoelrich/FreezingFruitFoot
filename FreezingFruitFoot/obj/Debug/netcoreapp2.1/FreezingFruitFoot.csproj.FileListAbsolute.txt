@@ -1,0 +1,16 @@
+C:\Users\Nate\Desktop\JobSearch\QuoteWizard\FreezingFruitFoot\FreezingFruitFoot\bin\Debug\netcoreapp2.1\wwwroot\customers.json
+C:\Users\Nate\Desktop\JobSearch\QuoteWizard\FreezingFruitFoot\FreezingFruitFoot\bin\Debug\netcoreapp2.1\wwwroot\agents.json
+C:\Users\Nate\Desktop\JobSearch\QuoteWizard\FreezingFruitFoot\FreezingFruitFoot\bin\Debug\netcoreapp2.1\FreezingFruitFoot.deps.json
+C:\Users\Nate\Desktop\JobSearch\QuoteWizard\FreezingFruitFoot\FreezingFruitFoot\bin\Debug\netcoreapp2.1\FreezingFruitFoot.runtimeconfig.json
+C:\Users\Nate\Desktop\JobSearch\QuoteWizard\FreezingFruitFoot\FreezingFruitFoot\bin\Debug\netcoreapp2.1\FreezingFruitFoot.runtimeconfig.dev.json
+C:\Users\Nate\Desktop\JobSearch\QuoteWizard\FreezingFruitFoot\FreezingFruitFoot\bin\Debug\netcoreapp2.1\FreezingFruitFoot.dll
+C:\Users\Nate\Desktop\JobSearch\QuoteWizard\FreezingFruitFoot\FreezingFruitFoot\bin\Debug\netcoreapp2.1\FreezingFruitFoot.pdb
+C:\Users\Nate\Desktop\JobSearch\QuoteWizard\FreezingFruitFoot\FreezingFruitFoot\obj\Debug\netcoreapp2.1\FreezingFruitFoot.csproj.CoreCompileInputs.cache
+C:\Users\Nate\Desktop\JobSearch\QuoteWizard\FreezingFruitFoot\FreezingFruitFoot\obj\Debug\netcoreapp2.1\FreezingFruitFoot.RazorAssemblyInfo.cache
+C:\Users\Nate\Desktop\JobSearch\QuoteWizard\FreezingFruitFoot\FreezingFruitFoot\obj\Debug\netcoreapp2.1\FreezingFruitFoot.RazorAssemblyInfo.cs
+C:\Users\Nate\Desktop\JobSearch\QuoteWizard\FreezingFruitFoot\FreezingFruitFoot\obj\Debug\netcoreapp2.1\FreezingFruitFoot.AssemblyInfoInputs.cache
+C:\Users\Nate\Desktop\JobSearch\QuoteWizard\FreezingFruitFoot\FreezingFruitFoot\obj\Debug\netcoreapp2.1\FreezingFruitFoot.AssemblyInfo.cs
+C:\Users\Nate\Desktop\JobSearch\QuoteWizard\FreezingFruitFoot\FreezingFruitFoot\obj\Debug\netcoreapp2.1\FreezingFruitFoot.RazorTargetAssemblyInfo.cache
+C:\Users\Nate\Desktop\JobSearch\QuoteWizard\FreezingFruitFoot\FreezingFruitFoot\obj\Debug\netcoreapp2.1\FreezingFruitFoot.dll
+C:\Users\Nate\Desktop\JobSearch\QuoteWizard\FreezingFruitFoot\FreezingFruitFoot\obj\Debug\netcoreapp2.1\FreezingFruitFoot.pdb
+C:\Users\Nate\Desktop\JobSearch\QuoteWizard\FreezingFruitFoot\FreezingFruitFoot\obj\Debug\netcoreapp2.1\FreezingFruitFoot.csprojAssemblyReference.cache

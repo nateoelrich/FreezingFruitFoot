@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreezingFruitFoot", "FreezingFruitFoot\FreezingFruitFoot.csproj", "{4A2DC911-3B76-4F02-95F1-4C0265B26157}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreezingFruitFoot.Tests", "FreezingFruitFoot.Tests\FreezingFruitFoot.Tests.csproj", "{8344D86B-A59B-4411-BD14-187239DAF106}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A2DC911-3B76-4F02-95F1-4C0265B26157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A2DC911-3B76-4F02-95F1-4C0265B26157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A2DC911-3B76-4F02-95F1-4C0265B26157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A2DC911-3B76-4F02-95F1-4C0265B26157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8344D86B-A59B-4411-BD14-187239DAF106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8344D86B-A59B-4411-BD14-187239DAF106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8344D86B-A59B-4411-BD14-187239DAF106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8344D86B-A59B-4411-BD14-187239DAF106}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCBA296C-84CB-44DF-99DF-C6905ADB27B5}
+	EndGlobalSection
+EndGlobal
