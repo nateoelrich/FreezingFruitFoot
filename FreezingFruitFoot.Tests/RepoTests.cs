@@ -96,25 +96,16 @@ namespace Tests
         public void UpdateAgent_ChangesReflected()
         {
             var repo = new Repository();
-            
-            var a = new Agent()
-            {
-                _Id = 999,
-                Name = "Nate Has Changed",
-                Address = "504 Test Ave",
-                City = "Seattle",
-                State = "WA",
-                ZipCode = "98101",
-                Tier = 1,
-                PhoneNumbers = new List<Phone>() { new Phone() { PhoneType = "mobile", Number = "123-789-7897" } }
-            };
-         
 
-            var result = repo.UpdateAgent(a);
+            var lastAgent = repo.GetAgents().Content.Last();
 
-            var postChangeAgent = repo.GetAgent(a._Id).Content;
+            lastAgent.Name = "Has Changed";         
 
-            Assert.IsTrue(postChangeAgent.Name == "Nate Has Changed");
+            var result = repo.UpdateAgent(lastAgent);
+
+            var postChangeAgent = repo.GetAgent(lastAgent._Id).Content;
+
+            Assert.IsTrue(postChangeAgent.Name == "Has Changed");
         }
 
         [Test]
@@ -192,30 +183,15 @@ namespace Tests
         {
             var repo = new Repository();
 
-            var c = new Customer()
-            {
-                Name = new CustomerName() { First = "Cust", Last = "Tomer" },
-                _Id = 56647854,
-                Age = 29,
-                EyeColor = "blue"
-            };
+            var lastCust = repo.GetCustomers().Content.Last();
 
+            lastCust.Name = new CustomerName() { First = "Cust", Last = "Tomer" };
 
-            var result = repo.UpdateCustomer(c);
+            var result = repo.UpdateCustomer(lastCust);
 
-            var postChangeCust = repo.GetCustomers().Content.Where(x => x._Id == c._Id).FirstOrDefault();
+            var postChangeCust = repo.GetCustomers().Content.Where(x => x._Id == lastCust._Id).FirstOrDefault();
 
-            Assert.IsTrue(postChangeCust.Age == 29);
-        }
-
-        [Test]
-        public void DeleteCustomer_WasSuccessful()
-        {
-            var repo = new Repository();
-
-            var result = repo.DeleteCustomer(5054);
-
-            Assert.IsTrue(null != result.Content);
+            Assert.IsTrue(postChangeCust.Name.Last == "Tomer");
         }
 
         [Test]
@@ -223,9 +199,11 @@ namespace Tests
         {
             var repo = new Repository();
 
+            var lastCustId = repo.GetCustomers().Content.Last()._Id;
+
             var originalCount = repo.GetCustomers().Content?.Count;
 
-            var result = repo.DeleteCustomer(4904);
+            var result = repo.DeleteCustomer(lastCustId);
 
             var newCount = repo.GetCustomers().Content?.Count;
 

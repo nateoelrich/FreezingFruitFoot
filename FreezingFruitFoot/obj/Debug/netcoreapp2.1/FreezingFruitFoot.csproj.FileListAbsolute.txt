@@ -13,4 +13,3 @@ C:\Users\Nate\Desktop\JobSearch\QuoteWizard\FreezingFruitFoot\FreezingFruitFoot\
 C:\Users\Nate\Desktop\JobSearch\QuoteWizard\FreezingFruitFoot\FreezingFruitFoot\obj\Debug\netcoreapp2.1\FreezingFruitFoot.RazorTargetAssemblyInfo.cache
 C:\Users\Nate\Desktop\JobSearch\QuoteWizard\FreezingFruitFoot\FreezingFruitFoot\obj\Debug\netcoreapp2.1\FreezingFruitFoot.dll
 C:\Users\Nate\Desktop\JobSearch\QuoteWizard\FreezingFruitFoot\FreezingFruitFoot\obj\Debug\netcoreapp2.1\FreezingFruitFoot.pdb
-C:\Users\Nate\Desktop\JobSearch\QuoteWizard\FreezingFruitFoot\FreezingFruitFoot\obj\Debug\netcoreapp2.1\FreezingFruitFoot.csprojAssemblyReference.cache
